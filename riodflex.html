@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programme Tutorat</title>
+  <style>
+    .h1{
+      align-items: center;
+      text-align: center;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      background-color: #cf2e2e;
+      padding: 10px 30px;
+    }
+
+    .menu ul {
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo img {
+      height: 40px;
+      width: 40px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+
+    .content {
+      display: flex;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .col {
+      flex: 1;
+    }
+
+    .col video {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+
+    @media (max-width: 768px) 
+      .content {
+        flex-direction: column;
+    }
+
+    /* 🔹 FOOTER */
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    footer .footer-box {
+      background-color: #282A35;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      border-radius: 8px 8px;
+    }
+
+    footer a {
+      color: #04AA6D;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      text-decoration: none;
+    }
+    .Fotboxflex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="foto.jpeg" alt="Logo">
+      <span>CLASSCENTRALRIO003131</span>
+    </div>
+    <nav class="menu"> 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="service.html">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Bienvenue</h1>  
+  <p><b>PROGRAMME TUTORAT CLASSCENTRALRIO003131</b></p>
+
+  <div class="content">
+    <!-- Colonne Texte -->
+    <div class="col">
+      <ul>
+        <li><b>Unité 1 :</b> Découvrir les bases du HTML : Créer votre première page Web</li>
+        <li>Exploration d'un document HTML simple</li>
+        <li>Compléter la structure de la page Web</li>
+        <li>Déboguer la page Web de la visite spatiale</li>
+        <br>
+        <li><b>Unité 2 :</b> Maîtriser la mise en forme du texte en HTML</li>
+        <li>Découvrir le formatage de texte HTML en action</li>
+        <li>Ajuster la mise en forme du texte</li>
+        <li>Corriger la page d'exploration du cosmos</li>
+        <li>Créer une page Web sur le thème du cosmos </li>
+        <br>
+  
+      </ul>
+    </div>
+
+    <!-- Colonne Vidéo -->
+    <div class="col">
+      <h2>Vidéo de présentation</h2>
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture vidéo.
+      </video>
+    </div>
+  </div>
+
+  <!-- pied de page -->
+  <footer>
+    <div class="footer-box">
+      <h3>Ressources Utiles</h3>
+      
+   <div class="Fotboxflex>">
+      <p>Besoin d'aide ? Consultez la 
+        <a href="https://www.w3schools.com/">documentation W3Schools</a>
+      </p> </div>
+      
+      <div class="Fotboxflex>"></div>
+        <a href="https://www.facebook.com/w3schoolscom/">Facebook </a></div> |
+
+           <div class="Fotboxflex>">
+        <a href="https://www.instagram.com/w3schools.com_official/">Instagram</a></div>
+        
+           <div class="Fotboxflex>">
+        <a href="https://twitter.com/w3schools">Twitter</a></div>
+      </div>
+    </div>
+    <p>&copy; 2023 Mon site web. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
